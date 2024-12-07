@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning how to program using python
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me FB: Jundell Flores Tiongson
-- 😄 Pronouns: Fckk pronounce
+- 😄 Pronouns: Fuck pronounce
 - ⚡ Fun fact: nothing
 
 <!---
