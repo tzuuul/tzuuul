@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Orders - ZapTech</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><i class="fas fa-bolt"></i> ZapTech</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="login.html"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- My Orders Section -->
+    <section class="my-orders">
+        <div class="orders-header">
+            <h2>My Orders</h2>
+            <p>Below is the list of your previous orders.</p>
+        </div>
+
+        <!-- Shipping Information Section -->
+        <div class="shipping-info">
+            <h3>Shipping Information</h3>
+            <p><strong>Address:</strong> 123 Main St, Cityville, ABC</p>
+            <p><strong>Phone:</strong> +63 912 345 6789</p>
+            <p><strong>Email:</strong> user@example.com</p>
+            <!-- Edit Shipping Information Button -->
+            <button class="edit-shipping-btn">Edit Shipping Info</button>
+        </div>
+
+        <!-- Order 1 -->
+        <div class="order-item">
+            <h3>Order #12345</h3>
+            <p><strong>Status:</strong> Shipped</p>
+            <p><strong>Date:</strong> 2024-12-05</p>
+            <div class="order-items">
+                <div class="order-item-details">
+                    <img src="images/iPhone2.jpg" alt="iPhone" class="order-item-img">
+                    <div class="product-details">
+                        <p>iPhone 13 128GB, Smartphone (Premium)</p>
+                        <p>Quantity: 1</p>
+                        <p>Price: ₱33,490.00</p>
+                        <button class="cancel-btn">Cancel Order</button>
+                    </div>
+                </div>
+                <div class="order-item-details">
+                    <img src="images/ASUS ROG.jpg" alt="ASUS ROG" class="order-item-img">
+                    <div class="product-details">
+                        <p>ASUS ROG Zephyrus G14 GA403UI 14” Gaming Laptop</p>
+                        <p>Quantity: 1</p>
+                        <p>Price: ₱129,990.00</p>
+                        <button class="cancel-btn">Cancel Order</button>
+                    </div>
+                </div>
+            </div>
+            <div class="order-total">
+                <span><strong>Total: ₱179,470.00</strong></span>
+            </div>
+        </div>
+
+        <!-- Order 2 -->
+        <div class="order-item">
+            <h3>Order #12346</h3>
+            <p><strong>Status:</strong> Processing</p>
+            <p><strong>Date:</strong> 2024-12-07</p>
+            <div class="order-items">
+                <div class="order-item-details">
+                    <img src="images/Apple watch SE.jpg" alt="Apple Watch" class="order-item-img">
+                    <div class="product-details">
+                        <p>Apple Watch SE (2nd Gen, 2023) with Sport Loop</p>
+                        <p>Quantity: 1</p>
+                        <p>Price: ₱15,990.00</p>
+                        <button class="cancel-btn">Cancel Order</button>
+                    </div>
+                </div>
+            </div>
+            <div class="order-total">
+                <span><strong>Total: ₱15,990.00</strong></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>ZapTech - Smart solutions for daily convenience.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Phone: +63 912 345 6789</p>
+                <p>Email: zaptechsupport@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>Laguna State Polytechnic University - SCC</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ZapTech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Edit Button Styling -->
+    <style>
+        .edit-shipping-btn {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .edit-shipping-btn:hover {
+            background-color: #004d40;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Receipt - ZapTech</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><i class="fas fa-bolt"></i> ZapTech</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="login.html"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Order Confirmation and Shipping Notification -->
+    <section class="order-confirmation">
+        <div class="confirmation-message">
+            <h2>Your order has been successfully placed.</h2>
+            <p>Below is your order summary:</p>
+        </div>
+        
+        <!-- Order Details -->
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <div class="order-items">
+                <!-- Order Item 1 -->
+                <div class="order-item">
+                    <img src="images/iPhone2.jpg" alt="Product 1" class="order-item-img">
+                    <div class="order-item-details">
+                        <div class="order-item-name">iPhone 13 128GB, Smartphone (Premium)</div>
+                        <div class="order-item-quantity">Quantity: 1</div>
+                        <div class="order-item-price">₱33,490.00</div>
+                    </div>
+                </div>
+
+                <!-- Order Item 2 -->
+                <div class="order-item">
+                    <img src="images/ASUS ROG.jpg" alt="Product 2" class="order-item-img">
+                    <div class="order-item-details">
+                        <div class="order-item-name">ASUS ROG Zephyrus G14 GA403UI 14” Gaming Laptop</div>
+                        <div class="order-item-quantity">Quantity: 1</div>
+                        <div class="order-item-price">₱129,990.00</div>
+                    </div>
+                </div>
+
+                <!-- Order Item 3 -->
+                <div class="order-item">
+                    <img src="images/Apple watch SE.jpg" alt="Product 3" class="order-item-img">
+                    <div class="order-item-details">
+                        <div class="order-item-name">Apple Watch SE (2nd Gen, 2023) with Sport Loop</div>
+                        <div class="order-item-quantity">Quantity: 1</div>
+                        <div class="order-item-price">₱15,990.00</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Total Price -->
+            <div class="total-price">
+                <span>Total Price:</span>
+                <span class="total-amount">₱179,470.00</span>
+            </div>
+        </div>
+
+        <!-- Shipping Information -->
+        <div class="shipping-info">
+            <h3>Shipping Information</h3>
+            <div class="shipping-details">
+                <p><strong>Full Name:</strong> John Doe</p>
+                <p><strong>Shipping Address:</strong> 123 Main Street, Cityville</p>
+                <p><strong>City:</strong> Cityville</p>
+                <p><strong>Postal Code:</strong> 12345</p>
+                <p><strong>Contact Number:</strong> +63 912 345 6789</p>
+            </div>
+        </div>
+
+        <p>We will notify you when your order is shipped. Thank you for shopping with ZapTech!</p>
+        
+        <!-- Proceed to My Orders Button -->
+        <div class="order-button">
+            <a href="orders.html">
+                <button class="proceed-btn">Proceed to My Orders</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>ZapTech - Smart solutions for daily convenience.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Phone: +63 912 345 6789</p>
+                <p>Email: zaptechsupport@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>Laguna State Polytechnic University - SCC</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ZapTech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Styles for the Button -->
+    <style>
+        /* Button Styling */
+        .order-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .proceed-btn {
+            background-color: #00796b;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .proceed-btn:hover {
+            background-color: white;
+        }
+    </style>
+</body>
+</html>
