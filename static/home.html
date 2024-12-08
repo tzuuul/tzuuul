@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZapTech - Home</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><i class="fas fa-bolt"></i> ZapTech</div>
+            
+            <!-- Centered Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- Right-aligned Icons -->
+<div class="nav-icons">
+    <div class="search-bar">
+        <input type="text" placeholder="Search products...">
+        <button><i class="fas fa-search"></i></button>
+    </div>
+    <!-- Link to the Cart Page -->
+    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+    <!-- Link to the Login Page (when user icon is clicked) -->
+    <a href="login.html"><i class="fas fa-user"></i></a> <!-- Change to the login page URL -->
+    <!-- Link to the Settings Page -->
+    <a href="settings.html"><i class="fas fa-cogs"></i></a> <!-- Added settings icon -->
+</div>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Welcome to ZapTech</h1>
+        <p>Explore the latest gadgets and tech solutions.</p>
+    </section>
+
+    <!-- Featured Products Section (Shop) -->
+    <section class="featured-products" id="shop">
+        <h2>Featured Products</h2>
+        <div class="products-grid">
+            <a href="product-details.html" class="product-card">  <!-- Wrap the product card with an anchor tag -->
+                <img src="images/iPhone2.jpg" alt="Product 1">
+                <div class="product-name">iPhone 13 128GB, Smartphone (Premium)</div>
+                <div class="product-price">₱33,490.00</div>
+            </a>
+            <a href="product-details.html" class="product-card">
+                <img src="images/ASUS ROG.jpg" alt="Product 2">
+                <div class="product-name">ASUS ROG Zephyrus G14 GA403UI 14” Gaming Laptop</div>
+                <div class="product-price">₱129,990.00</div>
+            </a>
+            <a href="product-details.html" class="product-card">
+                <img src="images/Apple watch SE.jpg" alt="Product 3">
+                <div class="product-name">Apple Watch SE (2nd Gen, 2023) with Sport Loop</div>
+                <div class="product-price">₱15,990.00</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="categories-list">
+            <button class="category-btn" onclick="filterProducts('laptop')">Laptops</button>
+            <button class="category-btn" onclick="filterProducts('smartphone')">Smartphones</button>
+            <button class="category-btn" onclick="filterProducts('smartwatch')">Smartwatch</button>
+            <button class="category-btn" onclick="filterProducts('accessory')">Accessories</button>
+        </div>
+    </section>
+
+    <!-- New Image Section -->
+    <section class="image-section">
+        <img src="images/aboutus.png" alt="Special Offer" class="special-image">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>ZapTech - Smart solutions for daily convenience.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Phone: +63 912 345 6789</p>
+                <p>Email: zaptechsupport@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>Laguna State Polytechnic University - SCC</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ZapTech. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

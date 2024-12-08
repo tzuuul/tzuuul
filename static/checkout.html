@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - ZapTech</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><i class="fas fa-bolt"></i> ZapTech</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="login.html"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Checkout Section -->
+    <section class="checkout-section">
+        <h2>Checkout</h2>
+
+        <!-- Shipping Information -->
+        <div class="shipping-info">
+            <h3>Shipping Information</h3>
+            <form action="/checkout" method="POST">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required placeholder="Enter your full name">
+
+                <label for="address">Shipping Address</label>
+                <input type="text" id="address" name="address" required placeholder="Enter your shipping address">
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required placeholder="Enter your city">
+
+                <label for="postal-code">Postal Code</label>
+                <input type="text" id="postal-code" name="postal-code" required placeholder="Enter your postal code">
+
+                <label for="contact-number">Contact Number</label>
+                <input type="text" id="contact-number" name="contact-number" required placeholder="Enter your contact number">
+
+                <button type="submit" class="checkout-btn">Place Order</button>
+            </form>
+        </div>
+
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <div class="order-items">
+                <!-- Order Item 1 -->
+                <div class="order-item">
+                    <img src="images/iPhone2.jpg" alt="Product 1" class="order-item-img">
+                    <div class="order-item-details">
+                        <div class="order-item-name">iPhone 13 128GB, Smartphone (Premium)</div>
+                        <div class="order-item-quantity">Quantity: 1</div>
+                        <div class="order-item-price">₱33,490.00</div>
+                    </div>
+                </div>
+
+                <!-- Order Item 2 -->
+                <div class="order-item">
+                    <img src="images/ASUS ROG.jpg" alt="Product 2" class="order-item-img">
+                    <div class="order-item-details">
+                        <div class="order-item-name">ASUS ROG Zephyrus G14 GA403UI 14” Gaming Laptop</div>
+                        <div class="order-item-quantity">Quantity: 1</div>
+                        <div class="order-item-price">₱129,990.00</div>
+                    </div>
+                </div>
+
+                <!-- Order Item 3 -->
+                <div class="order-item">
+                    <img src="images/Apple watch SE.jpg" alt="Product 3" class="order-item-img">
+                    <div class="order-item-details">
+                        <div class="order-item-name">Apple Watch SE (2nd Gen, 2023) with Sport Loop</div>
+                        <div class="order-item-quantity">Quantity: 1</div>
+                        <div class="order-item-price">₱15,990.00</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Total Price -->
+            <div class="total-price">
+                <span>Total Price:</span>
+                <span class="total-amount">₱179,470.00</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>ZapTech - Smart solutions for daily convenience.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Phone: +63 912 345 6789</p>
+                <p>Email: zaptechsupport@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>Laguna State Polytechnic University - SCC</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ZapTech. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
